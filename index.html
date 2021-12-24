@@ -18,7 +18,7 @@
 <body>
     <header class="header">
         <div class="header-contenedor">
-            <h1 class="header-titulo1">Práctica de integración de tecnologías FrontEnd</h1>
+            <h1 class="header-titulo1">Practicando lo aprendido</h1>
             <div class="header-iconos">
                 <img src="img/html.svg" alt="">
                 <p class="header-iconos__mas">+</p>
@@ -37,9 +37,8 @@
     <aside class="header-panel">
         <nav class="header-menu">
             <a href="#practica1" class="header-menu__enlace">Reloj Digital</a>
-            <a href="#practica2" class="header-menu__enlace">Agenda de Contactos</a>
-            <a href="#practica3" class="header-menu__enlace">Calculadora</a>
-            <a href="#practica4" class="header-menu__enlace">Juego?</a>
+            <a href="#practica2" class="header-menu__enlace">Calculadora</a>
+            <a href="#practica3" class="header-menu__enlace">Agenda de Contactos</a>
         </nav>
     </aside>
 
@@ -82,38 +81,8 @@
 
         </section>
 
-        <!-- ***agenda*** -->
-        <section id="practica2" class="principal__practica">
-            <h3 class="principal__practica-titulo">Agenda de Contactos</h3>
-            <p class="principal__practica-subtitulo">                
-                * Persistencia de datos a través del uso del
-                  <strong>localStorage</strong>  del navegador.<br>
-                * Uso del método <strong>JSON.stringify()</strong> para usar los objetos del localStorage.<br>
-                * Creación dinámica de elementos del DOM (<strong>createElement()</strong> y <strong>appendChild()</strong>).
-            </p>
-
-            <div class="agenda">
-                <div class="agenda__datos">
-                    <input class="agenda__nombre" type="text" placeholder="nombre" required>
-                    <input class="agenda__telefono" type="text" placeholder="telefono" required>
-                    <input class="agenda__email" type="email" placeholder="email" required>
-                    <button class="agenda__boton">Agregar Contacto</button>
-        
-                    <!-- ------Lista de Contactos------- -->
-                    <div class="agenda__contactos">
-                        <div class="agenda__contacto">
-                            <!-- <h3 class="agenda__contacto-nombre">nombre</h3>
-                            <p class="agenda__contacto-telefono">telefono</p>
-                            <p class="agenda__contacto-email">email</p>
-                            <span class="material-icons icono">delete_forever</span> le borre el "-outlined" al icono para que se viera -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
         <!-- ***calculadora*** -->
-        <section id="practica3" class="principal__practica">
+        <section id="practica2" class="principal__practica">
             <h3 class="principal__practica-titulo">Calculadora</h3>
             <p class="principal__practica-subtitulo">                
                 * Delegación de Evento para no agregar muchos <strong>Listeners</strong> (en teclas).<br>
@@ -147,9 +116,37 @@
             </div>
         </section>
 
-        <section id="practica4" class="principal__practica">
-            <h3 class="principal__practica-titulo">Juego?</h3>
+        <!-- ***agenda*** -->
+        <section id="practica3" class="principal__practica">
+            <h3 class="principal__practica-titulo">Agenda de Contactos</h3>
+            <p class="principal__practica-subtitulo">                
+                * Persistencia de datos a través del uso del
+                  <strong>localStorage</strong>  del navegador.<br>
+                * Uso del método <strong>JSON.stringify()</strong> para usar los objetos del localStorage.<br>
+                * Creación dinámica de elementos del DOM (<strong>createElement()</strong> y <strong>appendChild()</strong>).
+            </p>
+
+            <div class="agenda">
+                <div class="agenda__datos">
+                    <input class="agenda__nombre" type="text" placeholder="nombre" required>
+                    <input class="agenda__telefono" type="text" placeholder="telefono" required>
+                    <input class="agenda__email" type="email" placeholder="email" required>
+                    <button class="agenda__boton">Agregar Contacto</button>
+        
+                    <!-- ------Lista de Contactos------- -->
+                    <div class="agenda__contactos">
+                        <div class="agenda__contacto">
+                            <!-- <h3 class="agenda__contacto-nombre">nombre</h3>
+                            <p class="agenda__contacto-telefono">telefono</p>
+                            <p class="agenda__contacto-email">email</p>
+                            <span class="material-icons icono">delete_forever</span> le borre el "-outlined" al icono para que se viera -->
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+        
+        
     </main>
 
 
