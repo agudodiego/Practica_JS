@@ -25,6 +25,7 @@ html{
 
 /* ---------------header---------------- */
 
+
 .header{
     background-color: var(--color--principal);
     position: fixed;
@@ -305,7 +306,7 @@ html{
     cursor: pointer;
 }
 
-/* ---------------AGENDA DE CONTACTOS---------------- */
+/* ---------------CALCULADORA---------------- */
 .calculadora{
     width: 400px;
     height: 300px;
@@ -368,4 +369,39 @@ html{
 .calculadora-tecla--color{
     background-color: var(--color--secundario);
     color: #fff;
+}
+
+/* *************************************************
+                 RESPONSIVE
+************************************************* */
+
+/* ---------------RELOJ DIGITAL---------------- */
+@media (max-width: 360px){
+
+.widget-reloj__fecha{
+    font-size: 1rem;
+    width: 80%;
+}
+
+.widget-reloj__reloj{
+    font-size: 3rem;
+    width: 80%;
+}
+
+.widget-reloj__botones{
+    width: 80%;
+}
+
+/* ---------------CALCULADORA---------------- */
+
+.calculadora{
+    width: 90%;
+}
+
+/* ---------------AGENDA DE CONTACTOS---------------- */
+
+.agenda__datos{
+    width: 90%;
+}
+
 }
